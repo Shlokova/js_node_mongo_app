@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(
+        rgb(250, 238, 238),
+        rgba(255, 211, 211, 0.705),
+        rgb(250, 238, 238)
+    );
+    align-items: center;
+    justify-content: center;
+}
+
+.todo {
+    margin-bottom: 1rem;
+}
+
+.todo span.completed {
+    text-decoration: line-through;
+}
+
+.todo label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #ff5b711c;
+    padding: 1rem;
+}
+
+.todo i {
+    z-index: 2;
+}
